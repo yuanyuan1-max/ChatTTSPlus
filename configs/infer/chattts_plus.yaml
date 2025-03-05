@@ -75,6 +75,10 @@ MODELS:
         num_attention_heads: 12
         num_hidden_layers: 20
         use_cache: False
+        spk_emb_dim: 192
+        spk_KL: False
+        num_audio_tokens: 626
+        num_vq: 4
         max_position_embeddings: 4096
         spk_emb_dim: 192
         spk_KL: False
